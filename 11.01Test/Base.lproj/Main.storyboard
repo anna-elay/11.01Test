@@ -23,18 +23,25 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70b-bT-pHk">
+                                <rect key="frame" x="148" y="709" width="118" height="53"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <state key="normal" title="К Егору"/>
+                                <connections>
+                                    <segue destination="320-U9-wys" kind="show" id="kL6-Cl-Zld"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.012821017196954424" green="0.17907281091370564" blue="0.087496810376838249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="70b-bT-pHk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YfZ-m6-aeJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="70b-bT-pHk" secondAttribute="bottom" constant="100" id="icC-Te-w8m"/>
                             <constraint firstItem="p35-Br-ec6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rSF-KP-WIB"/>
                             <constraint firstItem="p35-Br-ec6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xEu-jM-PCP"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="320-U9-wys" kind="show" identifier="toEgor" id="GtK-u9-EUM"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,6 +74,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDH-1N-5cg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="66"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LTP-US-PkA">
+            <objects>
+                <viewController id="12I-ch-jZg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LJF-ec-GnA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="additionalVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDZ-Ww-Fwm">
+                                <rect key="frame" x="113" y="427.5" width="188.5" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="twQ-Ch-ZKw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dDZ-Ww-Fwm" firstAttribute="centerX" secondItem="LJF-ec-GnA" secondAttribute="centerX" id="e9Z-Oy-of5"/>
+                            <constraint firstItem="dDZ-Ww-Fwm" firstAttribute="centerY" secondItem="LJF-ec-GnA" secondAttribute="centerY" id="nJd-nz-0e3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AEn-p0-fN9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="66"/>
         </scene>
     </scenes>
     <resources>

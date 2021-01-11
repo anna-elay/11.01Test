@@ -15,6 +15,7 @@
 		95FE72C225ACEA5300440645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE72C125ACEA5300440645 /* Assets.xcassets */; };
 		95FE72C525ACEA5300440645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE72C325ACEA5300440645 /* LaunchScreen.storyboard */; };
 		95FE72CE25ACEB2E00440645 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 95FE72CD25ACEB2E00440645 /* .gitignore */; };
+		95FE72D625ACF21300440645 /* AnnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE72D525ACF21300440645 /* AnnaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95FE72C425ACEA5300440645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95FE72C625ACEA5300440645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95FE72CD25ACEB2E00440645 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		95FE72D525ACF21300440645 /* AnnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				95FE72BC25ACEA5100440645 /* ViewController.swift */,
 				95FE72BE25ACEA5100440645 /* Main.storyboard */,
 				4A18AD5625ACEEC000ECF19C /* EgorViewController.swift */,
+				95FE72D525ACF21300440645 /* AnnaViewController.swift */,
 				95FE72C125ACEA5300440645 /* Assets.xcassets */,
 				95FE72C325ACEA5300440645 /* LaunchScreen.storyboard */,
 				95FE72C625ACEA5300440645 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FE72D625ACF21300440645 /* AnnaViewController.swift in Sources */,
 				95FE72BD25ACEA5100440645 /* ViewController.swift in Sources */,
 				95FE72B925ACEA5100440645 /* AppDelegate.swift in Sources */,
 				95FE72BB25ACEA5100440645 /* SceneDelegate.swift in Sources */,

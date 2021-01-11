@@ -32,6 +32,9 @@
                             <constraint firstItem="p35-Br-ec6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xEu-jM-PCP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="320-U9-wys" kind="show" identifier="toEgor" id="GtK-u9-EUM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,11 +45,11 @@
             <objects>
                 <viewController id="320-U9-wys" customClass="EgorViewController" customModule="_1_01Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9gg-MT-NwI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy8-fV-yTR">
-                                <rect key="frame" x="173" y="427.5" width="68" height="41"/>
+                                <rect key="frame" x="173" y="400.5" width="68" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,10 +62,11 @@
                             <constraint firstItem="hy8-fV-yTR" firstAttribute="centerX" secondItem="9gg-MT-NwI" secondAttribute="centerX" id="BHU-g6-Bqh"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="TzB-98-h7f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDH-1N-5cg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="94"/>
+            <point key="canvasLocation" x="855" y="66"/>
         </scene>
     </scenes>
     <resources>

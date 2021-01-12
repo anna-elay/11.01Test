@@ -23,14 +23,6 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" systemColor="tertiarySystemBackgroundColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDM-4g-scT">
-                                <rect key="frame" x="184" y="560" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="XrR-I5-sB3" kind="presentation" id="5nb-5m-cuX"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.012821017196954424" green="0.17907281091370564" blue="0.087496810376838249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -50,7 +42,7 @@
             <objects>
                 <viewController id="XrR-I5-sB3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C19-Nq-19b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ddm-ar-bKT"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
